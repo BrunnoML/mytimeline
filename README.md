@@ -37,7 +37,7 @@ O Minha Linha do Tempo é um local de registro da evolução das atividades real
 
 ## 🔖 Layout
 
-Você pode visualizar o layout utilizado como base do projeto através [DESSE LINK]("https://www.section.io/engineering-education/building-an-animated-vertical-timeline-chart-with-html-css-and-javascript/").
+Você pode visualizar o layout utilizado como base do projeto através [DESSE LINK](https://www.section.io/engineering-education/building-an-animated-vertical-timeline-chart-with-html-css-and-javascript/).
 
 ## 🪪 Licença
 
