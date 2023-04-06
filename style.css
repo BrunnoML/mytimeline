@@ -7,7 +7,7 @@
 
 :root {
   --white: #fff;
-  --light-blue: lightblue;
+  --light-blue: rgb(215, 115, 220);
   --color-blue: blue;
   --color-dark-grey: #222831;
 }
@@ -36,11 +36,11 @@ body {
 }
 
 .intro-text h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-top: 2rem;
   line-height: 1.6;
 }
@@ -87,7 +87,7 @@ img {
 /* Content box */
 .timeline-section ul li div {
   width: 40rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   position: relative;
   bottom: 0;
   padding: 1.5rem;
@@ -141,9 +141,17 @@ img {
 /*style the time tag*/
 time {
   display: block;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   font-weight: 800;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
+}
+
+dl {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .timeline-section ul li::after {
