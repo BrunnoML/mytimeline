@@ -23,6 +23,25 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* profile */
+
+#profile {
+  text-align: center;
+  padding: 10px;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
 .intro-text {
   background-color: var(--color-dark-grey);
   color: var(--white);
@@ -216,4 +235,10 @@ dl {
     border-width: 8px 16px 8px 0;
     border-color: transparent var(--light-blue) transparent transparent;
   }
+}
+
+footer {
+  padding: 24px 0;
+  text-align: center;
+  font-size: 8px;
 }
