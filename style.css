@@ -63,10 +63,11 @@ body {
   justify-content: center;
   gap: 32px;
   padding: 24px 0px;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 #social-links a {
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,7 +76,7 @@ body {
 }
 
 #social-links a:hover {
-  background: var(--highlight-color);
+  background: var(--light-blue);
 }
 
 p {
