@@ -28,7 +28,8 @@
     <link rel="manifest" href="./favicon_io/site.webmanifest" />
   </head>
   <body>
-    <main>
+    
+    <header class="cabecalhO">
       <section class="intro-text">
         <div id="profile">
           <img
@@ -60,10 +61,26 @@
           </a>
         </div>
       </section>
-
+    </header>
+      
+      <nav class="timelinE">
       <section class="timeline-section">
         <!--Put all that should be in the timeline inside a ul tag-->
         <ul>
+          <li>
+            <div>
+              <time>22.05.2023</time>
+              <h2>Inglês, estudo e livro</h2>
+              <dl>
+                <dd>&rarr; Duolingo Celular: Unidade 8</dd>
+
+                <dd>&rarr; Faculdade: Python</dd>
+                <dd>
+                  &rarr; Livro: Como fazer amigos e influenciar pessoas (Dale Carnegie)
+                </dd>
+              </dl>
+            </div>
+          </li>
           <li>
             <div>
               <time>21.05.2023</time>
@@ -911,8 +928,9 @@
           </li>
         </ul>
       </section>
-    </main>
-    <footer>Desenvolvido com ☕︎ por BrunnoML <br />© 2023</footer>
+    </nav>
+
+    <footer class="rodapeR">Desenvolvido com ☕︎ por BrunnoML <br />© 2023</footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -921,7 +939,8 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-
     <script src="timeline.js"></script>
+    
   </body>
+  
 </html>

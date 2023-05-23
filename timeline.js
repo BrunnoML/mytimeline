@@ -5,7 +5,7 @@
     return (
       rect.top >= 0 &&
       rect.left >= 0 &&
-      rect.bottom <=
+      rect.bottom <= 
         (window.innerHeight || document.documentElement.clientHeight) &&
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
@@ -24,4 +24,6 @@
   window.addEventListener('load', slideIn);
   window.addEventListener('scroll', slideIn);
   window.addEventListener('resize', slideIn);
+  window.addEventListener('wheel', slideIn); //funcao para ativar a roalgem do trackpad 
+  
 })();
