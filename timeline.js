@@ -25,5 +25,5 @@
   window.addEventListener('scroll', slideIn);
   window.addEventListener('resize', slideIn);
   window.addEventListener('wheel', slideIn); //funcao para ativar a roalgem do trackpad 
-  
+  window.addEventListener('touchstart', slideIn);
 })();
