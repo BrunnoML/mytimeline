@@ -43,27 +43,18 @@ body {
 
 .cabecalhO {
   grid-area: cabecalho;
-  /* display: inline; */
-  
-  
-  
+  display: inline;
 }
 
 .timelinE {
   grid-area: centro;
   overflow-y: scroll;
-  
-  
 }
 
 .rodapeR {
   grid-area: rodape;
-  /* display: inline; */
+  display: inline;
   padding: 0.8em;
-  
-  
-  
-  
 }
 
 /* profile */
