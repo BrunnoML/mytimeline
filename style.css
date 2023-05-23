@@ -37,18 +37,20 @@ body {
   
   grid-template-columns: auto;
   
-  grid-template-rows: 310px 550px 70px;
+  grid-template-rows: 300px 600px 100px;
   grid-template-areas:"cabecalho" "centro" "rodape";
 }
 
 .cabecalhO {
   grid-area: cabecalho;
-  display: inline;
+  display: flex;
+  
 }
 
 .timelinE {
   grid-area: centro;
   overflow-y: scroll;
+  
 }
 
 .rodapeR {
@@ -62,7 +64,7 @@ body {
 
 #profile {
   text-align: center;
-  padding: 10px;
+  padding: 1rem;
   
 }
 
@@ -75,19 +77,19 @@ body {
   font-size: 1.0rem;
   line-height: 1px;
   margin-top: 1px;
-  margin-bottom: 8px;
+  margin-bottom: 1px;
 }
 
 .intro-text {
   background-color: var(--color-dark-grey);
   color: var(--white);
-  padding: 2rem 0;
+  padding: 1rem;
   
 }
 
 .container {
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 1rem;
   text-align: center;
   
 }
@@ -96,12 +98,18 @@ body {
   font-size: 2.7rem;
 }
 
+.linkedin-icon {
+  border-radius: 50%;
+}
+
+
+
 #social-links {
   color: #fff;
   display: flex;
   justify-content: center;
   gap: 32px;
-  padding: 24px 0px;
+  padding: 20px;
   font-size: 26px;
 }
 
@@ -110,7 +118,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px transition background 0.2s;
+  padding: 2rem transition background 0.2s;
   border-radius: 50%;
 }
 
@@ -118,9 +126,7 @@ body {
   background: var(--light-blue);
 }
 
-.linkedin-icon {
-  border-radius: 50%;
-}
+
 
 p {
   font-size: 1.5rem;
@@ -304,7 +310,7 @@ dl {
 footer {
   background-color: var(--color-dark-grey);
   color: var(--white);
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
   font-size: 1.4rem;
 }
