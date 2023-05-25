@@ -1,6 +1,6 @@
 /*use the universal selector to set some styles*/
 * {
-  margin: 0;
+  
   padding: 0;
   box-sizing: border-box;
 }
@@ -37,13 +37,15 @@ body {
   
   grid-template-columns: auto;
   
-  grid-template-rows: 300px 600px 100px;
+  grid-template-rows: 285px 600px 115px;
   grid-template-areas:"cabecalho" "centro" "rodape";
+  
 }
 
 .cabecalhO {
   grid-area: cabecalho;
-  display: flex;
+  display: inline;
+  
   
 }
 
@@ -51,6 +53,7 @@ body {
   grid-area: centro;
   overflow-y: scroll;
   
+ 
 }
 
 .rodapeR {
@@ -64,7 +67,8 @@ body {
 
 #profile {
   text-align: center;
-  padding: 1rem;
+  padding: 0;
+  margin: 0;
   
 }
 
@@ -78,6 +82,7 @@ body {
   line-height: 1px;
   margin-top: 1px;
   margin-bottom: 1px;
+  
 }
 
 .intro-text {
@@ -109,7 +114,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 32px;
-  padding: 20px;
+  padding: 10px;
   font-size: 26px;
 }
 
@@ -130,7 +135,7 @@ body {
 
 p {
   font-size: 1.5rem;
-  padding-top: 1.5rem;
+  padding: 0.5rem 0;
   line-height: 1.6;
 }
 
@@ -142,11 +147,12 @@ img {
 .timeline-section {
   width: 100%;
   overflow: hidden; /* creates block formatting context */
+  
 }
 
 .timeline-section ul {
   background: var(--light-blue);
-  padding: 5rem 0; /* padding top and bottom 5rem */
+  padding: 0.2rem 0; /* padding top and bottom 5rem */
 }
 
 /*styling the list*/
