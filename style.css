@@ -1,6 +1,6 @@
 /*use the universal selector to set some styles*/
 * {
-  
+  marging: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -34,17 +34,19 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   display: grid;
+  margin: 0;
+  padding: 0;
+  /* grid-template-columns: auto; */
   
-  grid-template-columns: auto;
-  
-  grid-template-rows: 285px 600px 115px;
+  grid-template-rows: 265px 600px 115px;
   grid-template-areas:"cabecalho" "centro" "rodape";
   
 }
 
 .cabecalhO {
   grid-area: cabecalho;
-  display: inline;
+ 
+  
   
   
 }
@@ -52,13 +54,13 @@ body {
 .timelinE {
   grid-area: centro;
   overflow-y: scroll;
+
   
  
 }
 
 .rodapeR {
   grid-area: rodape;
-  display: inline;
   padding: 0.8em;
 }
 
@@ -67,8 +69,8 @@ body {
 
 #profile {
   text-align: center;
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
   
 }
 
