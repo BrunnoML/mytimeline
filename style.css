@@ -54,14 +54,13 @@ body {
 .timelinE {
   grid-area: centro;
   overflow-y: scroll;
-
-  
  
 }
 
 .rodapeR {
   grid-area: rodape;
   padding: 0.8em;
+
 }
 
 /* profile */
