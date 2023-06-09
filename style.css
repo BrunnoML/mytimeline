@@ -45,6 +45,7 @@ body {
 
 .cabecalhO {
   grid-area: cabecalho;
+  
  
   
   
@@ -143,6 +144,28 @@ p {
 /*Timeline section*/
 img {
   width: 100%;
+}
+
+.divSearch {
+  display: inline-block;
+  position: absolute;
+  padding: 8rem 2rem;
+  
+  
+  
+  
+}
+
+button {
+  display: block; 
+  margin: 0.5rem;
+  
+}
+
+input {
+  padding: 0.5rem;
+  outline: none;
+  width: 14rem;
 }
 
 .timeline-section {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minha Linha do Tempo Vertical</title>
     <link rel="stylesheet" href="style.css" />
+    
     <script src="timeline.js" defer></script>
 
     <link
@@ -29,7 +30,16 @@
   </head>
   <body>
     
+
     <header class="cabecalhO">
+
+      <div class="divSearch">
+        <!-- <label for="search">Buscar dados:</label> -->
+        <input type="search" id="search" placeholder="Digite aqui" />
+        <button onclick="realizarPesquisa()">Pesquisar</button>
+      </div>
+      
+
       <section class="intro-text">
         <div id="profile">
           <img
@@ -37,20 +47,82 @@
             alt="Foto de BrunnoML sorrindo com fundo lilas"
           />
         </div>
+        
+        
+
         <div class="container">
           <h1>Minha Linha do Tempo</h1>
           <p>
             Registro das minhas atividades durante o desenvolvimento das
             habilidades em tecnologia.
           </p>
+
+          
+
         </div>
+        
+       
       </section>
+
+      
+
     </header>
       
       <nav class="timelinE">
+
+        
+
       <section class="timeline-section">
+        
+        
         <!--Put all that should be in the timeline inside a ul tag-->
         <ul>
+          <li>
+            <div>
+              <time>08.06.2023</time>
+              <h2>Inglês, estudo e livro</h2>
+              <dl>
+                <dd>&rarr; Duolingo Celular: Unidade 9</dd>
+                <dd>
+                  &rarr; Alura: Formação Mobile iOS - Domine a linguagem Swift
+                </dd>
+                <dd>
+                  &rarr; Livro: Como fazer amigos e influenciar pessoas (Dale Carnegie)
+                </dd>
+            
+              </dl>
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>07.06.2023</time>
+              <h2>Inglês e estudo</h2>
+              <dl>
+                <dd>&rarr; Duolingo Celular: Unidade 9</dd>
+                <dd>
+                  &rarr; Alura: HTML E CSS: AMBIENTES DE DESENVOLVIMENTO, ESTRUTURA DE ARQUIVOS E TAGS <a href="https://cursos.alura.com.br/certificate/f2874853-114d-4703-8b9f-242d9ece8870?lang=pt_BR">Certificado</a>
+                </dd>
+                
+                
+              </dl>
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>06.06.2023</time>
+              <h2>Inglês e estudo</h2>
+              <dl>
+                <dd>&rarr; Duolingo Celular: Unidade 8</dd>
+                <dd>
+                  &rarr; Alura: HTML e CSS
+                </dd>
+                <dd>&rarr; Alura: TRANSIÇÃO DE CARREIRA: UM GUIA PARA A ÁREA DA TECNOLOGIA <a href="https://cursos.alura.com.br/certificate/8d00032a-92ca-4e8e-ac1d-a86e9b73743a?lang=pt_BR">Certificado</a></dd>
+                <dd>
+                  &rarr; Rocketseat: Discover - Trilha Fundamentar
+                </dd>
+              </dl>
+            </div>
+          </li>
           <li>
             <div>
               <time>05.06.2023</time>
@@ -1127,7 +1199,7 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script src="timeline.js"></script>
-    
+    <script src="search.js"></script>
   </body>
   
 </html>
